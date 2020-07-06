@@ -10,11 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //MARK:- Properties
+    
+    var person : [Person] = Bundle.main.decode("person.json")
+    //MARK:- Initializers
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+      
     }
 
+    //MARK:- Handler
+    
 
 }
 
